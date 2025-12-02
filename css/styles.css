@@ -1,0 +1,15 @@
+:root{
+  --bg:#101010;
+  --card:#1a1a1a;
+  --accent:#ffcc00;
+  --text:#eee;
+  font-family:system-ui, sans-serif;
+}
+body{margin:0;background:var(--bg);color:var(--text);}
+nav{display:flex;gap:.5rem;padding:.5rem;background:var(--card);}
+nav button{background:transparent;color:var(--accent);border:1px solid var(--accent);padding:.4rem .8rem;border-radius:4px;cursor:pointer;}
+main{padding:1rem;}
+.card{background:var(--card);padding:1rem;border-radius:6px;margin-bottom:1rem;}
+input,textarea,select{width:100%;padding:.5rem;margin-top:.25rem;background:#222;border:1px solid #444;color:var(--text);border-radius:4px;}
+button{cursor:pointer;}
+
